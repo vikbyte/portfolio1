@@ -1,0 +1,180 @@
+{
+  "general": {
+    "first_name": "Vikram",
+    "last_name": "Patil",
+    "navbar_social_links": {
+      "github": "https://github.com/",
+      "resume": "/resume",
+      "linkedin": "https://www.linkedin.com/in/vikram-patil-5a5ba415b/",
+      "email": "vikramspatil1@gmail.com"
+    }
+  },
+  "repo_stats": {
+    "section": {
+      "enable_section": true
+    },
+    "repo_link": "https://github.com//Reactfolio",
+    "api_link": "https://api.github.com/repos//Reactfolio"
+  },
+  "intro_screen": {
+    "section": {
+      "enable_section": true
+    },
+    "main_header": "Hi, I'm Vikram!",
+    "main_subtitle": "I like to build stuff occasionally.",
+    "intro_bio": [
+      "I’m a UMass Amherst grad with a a Bachelor of Science in Computer Science",
+      "I have a passion for creating tech solutions and exploring new development challenges"
+      
+    ],
+    "email_button": "Say hello to me!"
+  },
+  "about_me": {
+    "section": {
+      "enable_section": true,
+      "title": "~/About",
+      "navbar_name": "/About",
+      "description": "Brief information about me and some of my interests."
+    },
+    "headShotUrl": "../assets/portrait.png",
+    "bio": [
+      "I am a recent graduate from UMass Amherst with a Bachelor of Science in Computer Science. I am currently working full-time at Raytheon as a Software Test Engineer on the SPY-6 program. Prior to this role, I completed an internship at CommScope during my junior year, where I automated fiber node test frameworks and developed new features.",
+      "I have a profound interest in various types of software development and full-stack development. In my free time, I enjoy playing tennis and trying new food."
+    ],
+    "skills_caption": "Some technologies I've worked with:",
+    "skills": [
+      "JavaScript",
+      "React.js & Node.js",
+      "Python 3.x",
+      "HTML & CSS",
+      "MongoDB & MySQL",
+      "Linux & Windows OS"
+    ]
+  },
+  "experience": {
+    "section": {
+      "enable_section": true,
+      "title": "~/Experience",
+      "navbar_name": "/Experience",
+      "description": "My current/past relevant experience. Click [here](/resume) to view my resume."
+    },
+    "experience_items": [
+      {
+        "organization": "Raytheon RMD",
+        "title": "Analyst",
+        "start_date": "May 2023",
+        "end_date": " Present",
+        "description": [
+          "Developed data analysis tools, scripts and devised flight scenarios to verify SPY6 (AMDR and EASR) radar A-spec requirements.",
+          "Analyze live flight test and simulation data for SPY-6 (AMDR and EASR) to verify that radar meets criteria for successful high stake tests",
+          "Led VI meetings with stakeholders to finalize and secure alignment on critical requirements.",
+          "Collaborated closely with mentors to refine development skills and deepen understanding of radar system design principles."
+        ]
+      },
+      {
+        "organization": "Commscope",
+        "title": "Software Intern",
+        "start_date": "June 2022",
+        "end_date": "August 2022",
+        "description": [
+          "Automated testing on ServAssure NXT Alarm Central, enhancing identification and prioritization of service impairments in cable network elements, resulting in a 30% efficiency boost in issue detection and resolution",
+          "Integrated custom API scripts, optimized website to fulfill unique client requirements and enhance user experience.",
+          "Created test framework to validate Alarm Central data against On-Demand data across multiple fiber-nodes, significantly reducing testing time and promptly identifying cable network discrepancies and sending alerts in real time"
+        ]
+      }
+    ]
+  },
+  "projects": {
+    "section": {
+      "enable_section": true,
+      "title": "~/Projects",
+      "navbar_name": "/Projects",
+      "description": "Some of my most recent or past favorite creations or work."
+    },
+    "project_items": [
+      {
+        "use_git_api": true,
+        "api_github_repo_link": "https://api.github.com/repos",
+        "project_name": "STMU Yelp",
+        "description": "Application.",
+        "resources_used": [
+          "JavaScript",
+          "Python",
+          "Flask",
+          "React.js",
+          "CSS",
+          "MongoDB",
+          "HTML",
+          "Rest API"
+        ],
+        "start_date": "Sept 2022",
+        "end_date": "May 2023",
+        "links": [
+          {
+            "href": "https://github.com/",
+            "icon": "FaGithub",
+            "data_tooltip": "Visit GitHub Repo"
+          },
+          {
+            "href": "https://github.com/Vikram",
+            "icon": "FaDownload",
+            "data_tooltip": "Download Project"
+          }
+        ]
+      },
+      {
+        "use_git_api": true,
+        "api_github_repo_link": "https://api.github.com/repos/Vikram",
+        "project_name": "Hycord Client",
+        "description": "Discord.py",
+        "resources_used": ["HTML", "Discord.py", "Hypixel API"],
+        "start_date": "Dec 2022",
+        "end_date": "Present",
+        "links": [
+          {
+            "href": "https://www.hycord.net",
+            "icon": "FiExternalLink",
+            "data_tooltip": "Information Page"
+          },
+          {
+            "href": "https://github.com/Vikram/Project1",
+            "icon": "FaGithub",
+            "data_tooltip": "Visit GitHub Repo"
+          },
+          {
+            "href": "https://github.com/archive/main.zip",
+            "icon": "FaDownload",
+            "data_tooltip": "Download Project"
+          }
+        ]
+      },
+      {
+        "use_git_api": true,
+        "api_github_repo_link": "https://api.github.com/repos/",
+        "project_name": "V2",
+        "description": "An e-portfolio website.",
+        "resources_used": [
+          "React.js",
+          "NVM",
+          "HTML & CSS",
+          "JavaScript",
+          "HTML",
+          "CSS"
+        ],
+        "start_date": "Sept 2023",
+        "end_date": "Present",
+        "links": [
+          {
+            "href": "https://github.com/Vikram/Reactfolio",
+            "icon": "FaGithub",
+            "data_tooltip": "Visit GitHub Repo"
+          }
+        ]
+      }
+    ]
+  },
+  "error_page": {
+    "title": "Error 404",
+    "description": "The page you are looking for does not exist. Chose one of the following links to continue."
+  }
+}

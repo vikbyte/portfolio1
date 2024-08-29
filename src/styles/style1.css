@@ -1,0 +1,459 @@
+:root {
+    --dark-navy: #000000;
+    --navy: #0a0a0a;
+    --light-navy: #1a1a1a;
+    --light-lime: #64ff93;
+    --white: #e9f1fc;
+    --bone-white: #d4ddf8;
+    --smoke: #999999;
+    --light-smoke: #bbbbbb;
+    --lighter-smoke: #dddddd;
+    --font-sans: "Calibre", "Inter", "San Francisco", "SF Pro Text", -apple-system,
+      system-ui, sans-serif;
+    --font-mono: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", monospace;
+  }
+  
+  This is for text highlight for multiple browsers
+   ::-moz-selection {
+    background: var(--light-navy);
+  }
+  ::-webkit-selection {
+    background: var(--light-navy);
+  } */
+   ::selection {
+    background: var(--light-navy);
+  }
+  
+  body {
+    background: var(--dark-navy);
+    color: var(--white);
+    cursor: default;
+  } 
+  
+  .p-r {
+    position: relative;
+  }
+  
+  .color-a {
+    text-decoration: none;
+    color: var(--light-lime);
+  }
+  
+  .color-d {
+    color: #f5f5f5;
+  }
+  
+  .color-text-a {
+    text-decoration: none;
+    color: #4e4e4e;
+  } 
+  
+  a {
+    text-decoration: none;
+  }
+  
+  .box-shadow,
+  .card-recentprojects,
+  .work-box,
+  .service-box,
+  .paralax-mf {
+    box-shadow: 0 13px 8px -10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .box-shadow-a,
+  .button:hover {
+    text-decoration: none;
+    box-shadow: 0 0 0 4px #cde1f8;
+  }
+  
+  @media (max-width: 1024px) {
+    .bg-image {
+      background-attachment: scroll;
+    }
+  } 
+  
+  .overlay-mf {
+    background-color: #000000;
+  }
+  
+  .overlay-mf {
+    position: absolute;
+    top: 0;
+    left: 0px;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0.7;
+  }
+  
+  .paralax-mf {
+    position: relative;
+    padding: 8rem 0;
+  }
+  
+  .display-table {
+    width: 100%;
+    height: 100%;
+    display: table;
+  }
+  
+  .table-cell {
+    display: table-cell;
+    vertical-align: middle;
+  } 
+  
+   .sect-4 {
+    padding: 4rem 0;
+  }
+  
+  .sect-pt4 {
+    padding-top: 4rem;
+  }
+  
+  .sect-mt4 {
+    margin-top: 4rem;
+  }
+  
+  .title-s {
+    font-weight: 600;
+    color: #1e1e1e;
+    font-size: 1.1rem;
+  }
+  
+  .title-box {
+    padding-top: 5rem;
+    margin-bottom: 1.5rem;
+    float: left;
+  }
+  
+  .title-a {
+    color: var(--light-lime);
+    font-family: var(--font-mono);
+    text-decoration: none;
+    text-align: left;
+    font-size: 2.5rem;
+    font-weight: 550;
+    padding-top: 2rem;
+  }
+  
+  .subtitle-a a {
+    color: var(--light-lime);
+    text-decoration: none;
+    font-weight: 500;
+    font-family: var(--font-sans);
+    font-size: 1.2rem;
+  }
+  
+  .subtitle-a a:hover {
+    color: var(--white);
+    transition: color 0.5s ease-in-out;
+  }
+  
+  .subtitle-a p {
+    margin-top: 0;
+    text-decoration: none;
+    text-align: left;
+    float: left;
+    color: var(--light-smoke);
+    font-weight: 500;
+    font-family: var(--font-sans);
+    font-size: 1.2rem;
+  }
+  
+  .line-mf {
+    display: none;
+  }
+  
+  @media (min-width: 768px) {
+    .line-mf {
+      display: inline;
+      width: 28rem;
+      height: 1px;
+      float: right;
+      background-color: var(--light-navy);
+      margin-top: 1.5rem;
+      margin-left: 1rem;
+    }
+  }
+  
+  .box-pl2 {
+    padding-left: 2rem;
+  }
+  
+  .box-shadow-full {
+    padding: 3rem 1.25rem;
+    position: relative;
+    background-color: var(--dark-navy);
+    /* background-color: var(--light-lime); */
+    border-radius: 8px;
+    margin-bottom: 3rem;
+    z-index: 2;
+  }
+  
+  @media (min-width: 768px) {
+    .box-shadow-full {
+      padding: 3rem;
+    }
+  }
+  
+  /*--------------------------------------------------------------
+  # About me section
+  --------------------------------------------------------------*/
+  
+  .about-bold {
+    font-weight: bold;
+  }
+  
+  .about-me-desc strong a {
+    color: var(--light-lime);
+    font-size: 1.1rem;
+  }
+  
+  .about-me-desc strong a:hover {
+    color: #e334a6;
+    text-decoration: none;
+  }
+  
+  .myportrait {
+    height: 375px;
+    border-radius: 8px;
+    box-shadow: 10px 10px 58px 6px rgba(0, 0, 0, 0.56);
+    -webkit-box-shadow: 10px 10px 58px 6px rgba(0, 0, 0, 0.56);
+    -moz-box-shadow: 10px 10px 58px 6px rgba(0, 0, 0, 0.56);
+  }
+  
+  .col-md-6 img {
+    padding-left: 0rem;
+  }
+  
+  .about-me-desc {
+    color: var(--smoke);
+    font-size: 1.2rem;
+    font-family: var(--font-sans);
+    font-weight: 400;
+    line-height: 1.3;
+    padding-bottom: 1rem;
+  }
+  
+  .languages-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0;
+  }
+  
+  .languages-list ul li {
+    color: var(--light-smoke);
+    padding-right: 0rem;
+    white-space: nowrap;
+    font-size: 0.9rem;
+  }
+  
+  .languages-list ul {
+    width: 50%;
+    padding: 0 0px;
+  }
+  
+  .languages-list ul li::before {
+    content: "▹";
+    padding-right: 0.8rem;
+    color: var(--light-lime);
+  }
+  
+  @media (min-width: 768px) {
+    .col-md-6 .col-6-img-a {
+      padding-left: 4rem;
+    }
+  }
+  
+  /*--------------------------------------------------------------
+  # Revealing scroll effect
+  --------------------------------------------------------------*/
+  
+  .reveal {
+    position: relative;
+    transform: translateY(150px);
+    opacity: 0;
+    transition: all 2s ease;
+  }
+  
+  .reveal.active {
+    transform: translateY(0px);
+    opacity: 1;
+  }
+  
+  /*--------------------------------------------------------------
+  # Tooltips for courses tables
+  --------------------------------------------------------------*/
+  
+  [data-tooltip] {
+    position: relative;
+    z-index: 0; /* Increase the z-index value to ensure tooltips appear above other elements */
+    cursor: pointer;
+  }
+  
+  /* Hide the tooltip content by default */
+  [data-tooltip]:before,
+  [data-tooltip]:after {
+    visibility: hidden;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    filter: progid: DXImageTransform.Microsoft.Alpha(Opacity=0);
+    opacity: 0;
+    pointer-events: none;
+  }
+  
+  /* Position tooltip above the element */
+  [data-tooltip]:before {
+    position: absolute;
+    bottom: 50%;
+    left: 20%;
+    margin-bottom: 20px;
+    margin-left: -80px;
+    padding: 7px;
+    width: 160px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    background-color: var(--light-navy);
+    color: var(--white);
+    content: attr(data-tooltip);
+    transition: all 0.15s ease-in;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: bold;
+    line-height: 1.2;
+    z-index: 2000;
+  }
+  
+  /* Triangle hack to make tooltip look like a speech bubble */
+  [data-tooltip]:after {
+    position: absolute;
+    bottom: 50%;
+    left: 20%;
+    margin-left: -5px;
+    margin-bottom: 15px;
+    width: 0;
+    border-top: 5px solid var(--light-navy);
+    border-right: 5px solid transparent;
+    border-left: 5px solid transparent;
+    content: " ";
+    font-size: 0;
+    line-height: 0;
+    z-index: 1999;
+  }
+  
+  /* Show tooltip content on hover */
+  [data-tooltip]:hover:before,
+  [data-tooltip]:hover:after {
+    visibility: visible;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+    filter: progid: DXImageTransform.Microsoft.Alpha(Opacity=100);
+    opacity: 1;
+  }
+  
+  /*--------------------------------------------------------------
+  # Education Course Table styles
+  --------------------------------------------------------------*/
+  
+  .education table,
+  td,
+  th {
+    border: 1px solid var(--dark-navy);
+    text-align: left;
+  }
+  
+  .education table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  .education th {
+    background-color: var(--light-lime);
+    padding: 7px;
+    color: var(--dark-navy);
+  }
+  
+  .education td {
+    padding: 5px;
+    font-family: var(--font-mono);
+    font-weight: 600;
+  }
+  
+  /*--------------------------------------------------------------
+  # Buttons styles
+  --------------------------------------------------------------*/
+  
+  .resume-button {
+    font-family: var(--font-mono);
+    font-size: 1.25rem;
+    font-weight: 500;
+    color: var(--light-lime);
+    border: 1px solid var(--light-lime);
+    border-radius: 8px;
+    padding: 1.5rem;
+    transition: all 0.2s ease;
+    margin-bottom: 3rem;
+  }
+  
+  .resume-button:hover {
+    color: var(--white);
+    background-color: var(--light-lime);
+    border: 1px solid var(--light-lime);
+    text-decoration: none;
+    transition: all 0.2s ease;
+  }
+  
+  .resume-link {
+    text-decoration: none;
+  }
+  
+  #recentprojects-header {
+    font-family: var(--font-sans);
+    font-size: 2rem;
+    font-weight: 550;
+    color: var(--light-lime);
+    text-align: center;
+    padding-top: 4rem;
+    padding-bottom: 3rem;
+  }
+  
+  .card-recentprojects {
+    position: relative;
+    margin-bottom: 1.5rem;
+    padding: 1.25rem;
+    background-color: var(--navy);
+    border-radius: 8px;
+  }
+  
+  .card-recentprojects-title {
+    font-family: var(--font-sans);
+    font-size: 1.6rem;
+    font-weight: 500;
+    color: var(--white);
+    padding-bottom: 0.5rem;
+  }
+  
+  .card-recentprojects-desc {
+    font-family: var(--font-sans);
+    font-size: 1.25rem;
+    font-weight: 500;
+    color: var(--smoke);
+    padding-bottom: 1rem;
+  }
+  
+  .card-recentprojects-skills {
+    font-family: var(--font-sans);
+    font-size: 1rem;
+    font-weight: 500;
+    color: var(--light-smoke);
+  }
+  
+  .card-recentprojects-skills span {
+    margin-right: 1rem;
+  }
+  
+  .card-recentprojects-skills span::before {
+    content: "▹";
+    padding-right: 0.8rem;
+    color: var(--light-lime);
+  }
